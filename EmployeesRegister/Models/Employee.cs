@@ -14,5 +14,7 @@ namespace EmployeesRegister.Models
         public string Position { get; set; }
         public string Department { get; set; }
         public string  Company { get; set; }
+
+        //Todo extract Company to own entity.
     }
 }
